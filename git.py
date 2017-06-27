@@ -19,13 +19,13 @@ c=0
 # 			else:
 # 				s+=h
 # 		print s
-s=user+'\n'
+s=user+','
 for i in range(len(res)-6):
 	if res[i:i+6]=='"name"':
 
 		for h in res[i+8:]:
 			if h=='"':
-				s+='\n'
+				s+=','
 				break
 			else:
 				s+=h
