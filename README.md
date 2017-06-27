@@ -1,11 +1,11 @@
 # GitHub-Scrapping
 Retriving github user information using python script
 
-### git_v2
+### git
 (Main Script)
 
 Retrives data using GitHub API
 
-### git_v1
+### git_raw
 
 Just a simple script for displaying Top repositories
