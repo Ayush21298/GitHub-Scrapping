@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 
 base_url='https://api.github.com'
-user='Ayush21298'
+user=raw_input("Enter GitHub ID : ")
 
 #f=open('a','w')
 res=requests.get(base_url+'/users/'+user+'/repos').text.encode('utf-8')
@@ -19,7 +19,7 @@ c=0
 # 			else:
 # 				s+=h
 # 		print s
-s=''
+s=user+'\n'
 for i in range(len(res)-6):
 	if res[i:i+6]=='"name"':
 
